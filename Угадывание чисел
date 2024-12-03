@@ -1,0 +1,17 @@
+import random
+def show_score(attempt_list):
+if not attempts_list:
+print('There is currently no be sr score,'
+'if\'s yousr for the taking!')
+else:
+print(f'The The current best score is'
+f' {min(attempts_list)} attempts')
+def start_game():
+attempts = 0
+rand_num = random.randint(1,10)
+attemots_list =[]
+print ('Привет, путешественник! Добро пожаловать в игру в угадайки!')
+player_name = input('Как тебя зовут?')
+wanna_play = inpyt( f'Привет, {player_name}, не хотели бы вы поиграть '
+игра в угадайку? (Enter Yes/No): ')
+if wana_
